@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%- include('partials/head') %>
+
+    <body class="home">
+        <%- include('partials/header') %>
+
+            <main class="home__main">
+                <div class="home__main__section--banner">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="/img/banner/image1.jpg" alt=""></div>
+                            <div class="swiper-slide"><img src="/img/banner/image2.jpeg" alt=""></div>
+                            <div class="swiper-slide"><img src="/img/banner/image3.jpeg" alt=""></div>
+                            <div class="swiper-slide"><img src="/img/banner/image5.webp" alt=""></div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+                <div class="home__main__section--products">
+
+                    <% products.forEach(({title, description, id, images,section},index)=> { %>
+                        <article class="home__main__section__article" data-aos="zoom-in-<%= index % 2 === 0 ? 'up' : index % 3 === 0 ? 'left' : 'right'%>" data-aos-duration="500">
+                            <div class="home__main__section__article--box">
+                                <img class="home__main__section__article--image"
+                                    src="/img/products/<%= images.find(image => image.main).file %>" alt="producto1">
+                                <a class="home__main__section__article--zoom" href="">AMPLIAR FOTO</a>
+                            </div>
+                            <h4 class="home__main__section__article--title">
+                                <%= title %>
+                            </h4>
+                            <p class="home__main__section__article--description">
+                                <%= description %>
+                            </p>
+                            <a class="home__main__section__article--more" href="/products/detail/<%= id %>">ver más</a>
+                        </article>
+                        <% }) %>
+
+
+                </div>
+                <section class="carousel_ensaladas">
+                    <div class="swiper mySwiper2">
+                        <div class="swiper-wrapper">
+
+                            <% productsCarousel.forEach(({id, image}) => { %>
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <a href="/detalle-product/<%= id %>"><img class="card-img-top"
+                                                src="/img/products/<%= image %>" alt=""></a>
+                                        <div class="card-body">
+    
+                                            <p class="card-title">Ensalada tanto...</p>
+    
+                                        </div>
+                                    </div>
+    
+    
+                                </div>
+                            <% }) %>
+                        
+                          
+                    
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </section>
+                <a class="home__main--whatsapp" href=""><img width="50px" src="/img/whatsapp-icon.png" alt=""></a>
+            </main>
+
+            <%- include('partials/footer') %>
+                <%- include('partials/scripts') %>
+
+
+
+    </body>
+
+</html>

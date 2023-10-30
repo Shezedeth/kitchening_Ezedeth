@@ -1,0 +1,134 @@
+[
+   {
+      "id": "ab1667a5-2f46-4194-9bbd-f22f6adfe5be",
+      "title": "Tallarines a la boloñesa",
+      "category": "Pastas",
+      "price": 1000,
+      "discount": 30,
+      "description": "Una de las salsas que mejor acompaña a unos tallarines es, sin duda, una salsa o ragú a la boloñesa. Una carne picada y bien guisadita con su tomate que, acompañando a un plato de pasta, forma un plato completo. Una receta fácil y muy recurrida.",
+      "section": "sale",
+      "createAt": "2023-08-11T14:25:41.258Z",
+      "image": "1693292966481_products_.jpg",
+      "images": [
+         "1693292966494_products_.webp",
+         "1693292966503_products_.webp",
+         "1693292966512_products_.webp"
+      ]
+   },
+   {
+      "id": "ea373486-17d4-4976-8ddb-fdedd23ff25d",
+      "title": "Paella valenciana tradicional",
+      "category": "Carnes",
+      "price": 200,
+      "discount": 10,
+      "description": "La auténtica y tradicional paella valenciana: te explicamos cómo hacerla paso a paso, con todo detalle, de manera sencilla y con todos los trucos y aspectos clave para conseguir la paella perfecta.",
+      "section": "free",
+      "createAt": "2023-08-11T14:27:11.542Z",
+      "image": "1693293442052_products_.webp",
+      "images": [
+         "1693293442057_products_.webp",
+         "1693293442059_products_.webp",
+         "1693293442068_products_.webp"
+      ]
+   },
+   {
+      "id": "c162c019-b5ff-4d22-a19b-9d03940dbb58",
+      "title": "Ensaladilla rusa",
+      "category": "Pescados y Mariscos",
+      "price": 3000,
+      "discount": 10,
+      "description": "La ensaladilla rusa es uno de los platos más populares de nuestra gastronomía, no hay quien se resista a una tapa de esta ensalada fría. Si aún no la has hecho, hoy te mostramos la receta original paso a paso. Nada más fácil y delicioso.",
+      "section": "sale",
+      "createAt": "2023-08-11T14:27:57.641Z",
+      "image": "1693322080924_products_.webp",
+      "images": [
+         "1693322080927_products_.webp",
+         "1693322080930_products_.webp",
+         "1693322080936_products_.webp"
+      ]
+   },
+   {
+      "id": "b55917b3-430f-441d-a0f5-01badba27d08",
+      "title": "Salchipapas",
+      "category": "Carnes",
+      "price": 50,
+      "discount": 0,
+      "description": "Embutidos",
+      "section": "new",
+      "createAt": "2023-08-11T14:28:25.043Z",
+      "image": "ensalada4.webp",
+      "images": []
+   },
+   {
+      "id": "86c9cf58-9f39-49df-8f45-0f673b5b9356",
+      "title": "Tabla de fiambres",
+      "category": "Carnes",
+      "price": 100,
+      "discount": 20,
+      "description": "Fiambres y quesos!!",
+      "section": "new",
+      "createAt": "2023-08-11T14:28:48.769Z",
+      "image": "ensalada1.webp",
+      "images": []
+   },
+   {
+      "id": "a714e62f-e84a-45b3-b45c-3f5f490b5f0a",
+      "title": "Guiso de lentejas",
+      "category": "Pastas",
+      "price": 200,
+      "discount": 10,
+      "description": "Alto guiso de lentejas con panceta",
+      "section": "free",
+      "createAt": "2023-08-11T14:29:44.597Z",
+      "image": "ensalada2.webp",
+      "images": []
+   },
+   {
+      "id": "ec35adbc-b04a-4f7f-8f2a-7b489a585993",
+      "title": "Guiso de fideos",
+      "category": "Pastas",
+      "price": 80,
+      "discount": 20,
+      "description": "Guiso de fideos \"moñitos\"",
+      "section": "free",
+      "createAt": "2023-08-11T14:30:18.678Z",
+      "image": "ensalada5.webp",
+      "images": []
+   },
+   {
+      "id": "8a559fb5-af81-48f4-871e-1336c949e152",
+      "title": "Filet de merluza",
+      "category": "Pescados y Mariscos",
+      "price": 1000,
+      "discount": 10,
+      "description": "Lorem ipsum",
+      "section": "free",
+      "createAt": "2023-08-14T14:42:14.394Z",
+      "image": "ensalada1.webp",
+      "images": []
+   },
+   {
+      "id": "fd30195f-61a5-4633-921d-289fc6bb72df",
+      "title": "Sandwich de vacio",
+      "category": "Carnes",
+      "price": 100,
+      "discount": 10,
+      "description": "Rico y barato",
+      "section": "sale",
+      "createAt": "2023-08-14T15:29:21.440Z",
+      "image": "ensalada6.webp",
+      "images": []
+   },
+   {
+      "id": "a3ce4cde-e977-41f5-a2a7-015664c2cb93",
+      "title": "Helado de Kinder Bueno",
+      "category": "Pastas",
+      "price": 7000,
+      "discount": 0,
+      "description": "Hoy os enseñamos con todo detalle a preparar un helado Kinder Bueno, un capricho para los más golosos con tan solo 3 ingredientes. Además es muy fácil de preparar y se puede hacer con y sin heladera. ¡Vamos con la receta!",
+      "section": "new",
+      "image": "1693320628427_products_.webp",
+      "images": [],
+      "createAt": "2023-08-29T14:50:28.440Z"
+   }
+]

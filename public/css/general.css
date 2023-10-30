@@ -1,0 +1,35 @@
+:root {
+  --colorRojo: #b81e14;
+  --colorGris: #92908b;
+  --colorGrisOscuro : #444444;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #ffff;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  padding: 0;
+}
+body {
+  background-image: url('/img/bg-body.png');
+  font-family: 'Roboto';
+  margin: 0 10px;
+  max-width: 1180px;
+}
+
+@media (min-width: 1180px) {
+  body {
+    margin: 0 auto;
+  }
+}
