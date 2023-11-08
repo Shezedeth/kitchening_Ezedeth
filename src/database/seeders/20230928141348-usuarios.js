@@ -11,7 +11,7 @@ module.exports = {
           surname: "Kitchening",
           email: "admin@gmail.com",
           password:
-            "$2a$10$khdNA1e5pfBwVikAUZE1.OwMw8gS27wnUDfMBA6OqO5IVv2jrwXMW",
+            "$2a$10$qJuExDMLCE/91ynBq8ToBu9upl0FEmozvSJGcrHoDFiEQiLMs30hm",
           roleId: 1,
           birthday: null,
           createdAt : new Date,
@@ -22,7 +22,7 @@ module.exports = {
           surname: "Kitchening",
           email: "user@gmail.com",
           password:
-            "$2a$10$khdNA1e5pfBwVikAUZE1.OwMw8gS27wnUDfMBA6OqO5IVv2jrwXMW",
+            "$2a$10$qJuExDMLCE/91ynBq8ToBu9upl0FEmozvSJGcrHoDFiEQiLMs30hm",
           roleId: 2,
           birthday: null,
           createdAt : new Date,

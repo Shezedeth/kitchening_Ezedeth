@@ -28,7 +28,6 @@
   text-transform: uppercase;
   margin-bottom: 1px;
   padding: 8px 0;
-  
 }
 
 .home__header__nav--menu ul li:last-child {
@@ -51,6 +50,8 @@
 
 .home__main__section__article--image {
   width: 100%;
+  height: 300px;
+  object-fit: cover;
 }
 
 .home__main__section__article--sticker {
@@ -79,7 +80,9 @@
   display: inline-block;
   padding: 8px;
   margin: 20px 0;
-  background-color: var(--colorGrisOscuro);
+  background-color: #1135bb;
+  color: #e7f2f6;
+  border-radius: 5px;
 }
 
 .home__main--whatsapp {
@@ -89,13 +92,12 @@
   z-index: 1000;
 }
 
-
 /* FOOTER */
 
 .home__footer__nav--menu ul {
-    display: flex;
-    flex-direction: column;
-    gap: 1px;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
 }
 
 .home__footer__nav--menu ul li {
@@ -104,7 +106,6 @@
   padding: 8px 0;
   text-align: center;
 }
-
 
 @media (min-width: 481px) {
   /* HEADER */
@@ -166,54 +167,57 @@
   .home__header__nav--menu ul li {
     font-size: 1rem;
     height: 50px;
-    padding: 15px;
+    padding: 11px;
   }
 
   /* MAIN */
+  .home__main__section__article--description {
+    height: 175px;
+    overflow: auto;
+    color: #000;
+  }
+  .home__main__section__article--description::-webkit-scrollbar {
+    width: 3px;
+  }
+  .home__main__section__article--description::-webkit-scrollbar-thumb {
+    background: #ff9d00;
+    border-radius: 5px;
+  }
 
   .home__main__section__article {
     width: 32%;
   }
 
-  
-.home__main--whatsapp {
-
-  right: 100px;
-}
-
+  .home__main--whatsapp {
+    right: 100px;
+  }
 
   /* FOOTER */
 
-.home__footer {
+  .home__footer {
     margin-top: 30px;
     padding: 60px 0;
     background-color: var(--colorRojo);
     display: flex;
     justify-content: center;
     border-radius: 30px 30px 0 0;
-}
-.home__footer__nav--menu ul {
+  }
+  .home__footer__nav--menu ul {
     flex-direction: row;
-}
+  }
 
-.home__footer__nav--menu ul li {
+  .home__footer__nav--menu ul li {
     width: 110px;
     border-right: 1px solid #ffffff;
-}
+  }
 
-.home__footer__nav--menu ul li:last-child {
+  .home__footer__nav--menu ul li:last-child {
     border-right: none;
-}
-
+  }
 }
 
 @media (min-width: 1440px) {
-
   .home__main--whatsapp {
-   
     right: 150px;
-   
   }
-  
-  
 }
